@@ -1,0 +1,233 @@
+.section
+    min-height: 725px
+    padding-top: 72px
+    &__title
+        color: $main-color
+        font-family: Roboto
+        font-size: 36px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+        text-align: center
+        margin-bottom: 70px
+        &_sub-title
+            font-size: 30px
+            margin-top: 73px
+            margin-bottom: 50px
+    &__content
+        color: $main-color
+        text-align: justify
+        font-family: Roboto
+        font-size: 22px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+        margin-bottom: 35px
+    &__link
+        display: block
+        margin: 0 auto
+        width: fit-content
+        text-decoration: none
+        bordeer-bottom: 1px solid $link-color
+        color: $link-color
+        text-align: justify
+        font-family: Roboto
+        font-size: 22px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+    &__img-box
+        width: 964px
+        height: 571px
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        margin-top: 30px
+        margin-bottom: 30px
+    &__horizontal-devider
+        background: $link-color
+        height: 1px
+        width: 85%
+        border-radius: 0.5px
+    li
+        line-height: 30px
+span
+    font-weight: 700
+.parallax
+    width: 100%
+    height: 700px
+    background: url(../img/parallax.png) center/cover no-repeat fixed
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    &__title
+        color: #FFF
+        text-align: center
+        font-family: Roboto
+        font-size: 70px
+        font-style: normal
+        font-weight: 300
+        line-height: normal
+.responsibility
+    position: relative
+    z-index: 0
+    height: 100%
+    &__list
+        line-height: 40px
+    embed
+        display: block
+        margin: 0 auto
+        border-radius: 10px
+        border: 1px solid #000
+        width: 817px
+        height: 831px
+        flex-shrink: 0
+        margin-bottom: 43px
+    .btn-box
+        margin-bottom: 45px
+        display: flex
+        justify-content: center
+        align-items: center
+.web-form
+    position: relative
+    z-index: 0
+    width: 100%
+    min-height: 898px
+    background: url(../img/image_27.png) center/cover no-repeat fixed
+    &__wrapper
+        width: 659px
+        min-height: 898px
+        flex-shrink: 0
+        border-right: 1px solid #000
+        border-left: 1px solid #000
+        background: rgba(255, 255, 255, 0.75)
+        backdrop-filter: blur(5px)
+        padding: 35px 22px
+    &__title
+        color: $main-color
+        text-align: center
+        font-family: Roboto
+        font-size: 22px
+        font-style: normal
+        font-weight: 300
+        line-height: 22px
+        margin-bottom: 15px
+    input, textarea, select
+        margin: 15px 0
+        padding: 0 12px 
+        width: 432px
+        height: 40px
+        border-radius: 5px
+        border: 1px solid #000
+        background: #FFF
+        outline: none
+        color: #000
+        text-align: justify
+        font-family: Roboto
+        font-size: 21px
+        font-style: normal
+        font-weight: 300
+        line-height: 22px
+        &:focus
+            box-shadow: 0px 0px 5px 3px rgba(31, 169, 203, 0.50)
+        &::placeholder
+            color: rgba(0, 0, 0, 0.35)
+            text-align: justify
+            font-family: Roboto
+            font-size: 20px
+            font-style: normal
+            font-weight: 300
+    &__sub-box
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        input
+            width: 299px
+    button
+        margin: 0 auto
+        margin-top: -5px
+    option
+        border-radius: 5px
+        border: 1px solid #000
+        background: #FFF
+    textarea
+        line-height: 40px
+        width: 100%
+        height: 150px
+    label
+        margin-left: 15px
+        color: $main-color
+        text-align: justify
+        font-family: Roboto
+        font-size: 21px
+        font-style: normal
+        font-weight: 300
+        line-height: 22px
+    .error
+        border: 1px solid $button-color
+        margin-bottom: 3px
+        &:focus
+            box-shadow: 0px 0px 5px 3px $button-color
+    label.error
+        border: none
+        color: $button-color
+        font-size: 15px
+        margin-bottom: 10px
+.slider
+    height: fit-content
+    width: 100%
+    padding-bottom: 70px
+    &__horizontal-devider
+        display: block
+        margin: 0 auto
+        width: 69%
+        height: 1px
+        background: $main-color
+        &_top
+            margin-top: 70px
+            margin-bottom: 50px
+        &_bottom
+            margin-top: 50px
+            margin-bottom: 70px
+    .slick-dots
+        margin-top: 10px
+        padding: 0
+        display: flex
+        justify-content: center
+        align-items: center
+        li
+            list-style: none
+            margin: 0px 10px
+        .slick-active
+            button
+                background: $main-color
+        button 
+            font-size: 0
+            width: 10px
+            height: 10px
+            border: 1px solid $main-color
+            border-radius: 10px
+
+.carousel
+    padding: 0
+    &__inner
+        position: relative
+        width: 719px
+        height: 500px
+        margin: 0 auto
+        img
+            height: 100%
+            margin: 0 auto
+    .slick-prev, .slick-next
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: -66px
+        border: none
+        background: none
+    .slick-next
+        left: auto
+        right: -66px

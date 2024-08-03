@@ -1,0 +1,594 @@
+@media (max-width: 1860px)
+    .LG
+        display: none
+    .MD
+        display: block
+    .news-bookmark
+        display: block
+        position: fixed
+        top: 220px
+        right: -1px
+        &__wrapper
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            float: right
+            width: 65px
+            height: 180px
+            border-radius: 5px 0 0 5px
+            border-top: 1px solid #000
+            border-bottom: 1px solid #000
+            border-left: 1px solid #000
+            background: rgba(255, 255, 255, 0.75)
+            backdrop-filter: blur(10px)
+            padding: 12px 10px
+            cursor: pointer
+            transition: 0.5s all
+            &_active
+                margin-right: -120px
+                transition: 0.5s all
+        &__horizontal-devider
+            display: block
+            margin: 0 auto
+            width: 42px
+            height: 1px
+            flex-shrink: 0
+            background: $link-color
+        &__content
+            height: 295px
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            padding-bottom: 21px
+        &__title
+            display: block
+            color: $main-color
+            text-align: center
+            font-family: Roboto
+            font-size: 25px
+            font-style: normal
+            font-weight: 300
+            line-height: normal
+            letter-spacing: 1.4px
+            transform: rotate(270deg)
+        .news-back-mark
+            margin-right: -500px
+            float: right
+            transition: 0.5s all
+            cursor: pointer
+            &_active
+                margin-right: 10px
+                transition: 0.5s all
+        .news-mark__wrapper
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            margin-right: -500px
+            float: right
+            width: 300px
+            height: 416px
+            border-radius: 5px
+            border: 1px solid $main-color
+            background: rgba(255, 255, 255, 0.75)
+            backdrop-filter: blur(5px)
+            padding: 12px 10px
+            transition: 0.5s all
+            &_active
+                margin-right: 20px
+                transition: 0.5s all
+@media (max-width: 1400px)
+    .footer
+        position: relative
+        .footer-contacts
+            top: 69px
+            left: 50%
+            transform: translateX(-50%)
+            width: 644px
+            height: 260px
+            border-radius: 0px 0px 10px 10px
+            border-right: 1px solid #000
+            border-bottom: 1px solid #000
+            border-left: 1px solid #000
+            background: rgba(25, 25, 26, 0.85)
+            backdrop-filter: blur(5px)
+            padding: 20px 54px
+            &__title
+                font-size: 23px
+                font-weight: 500
+                margin-bottom: 10px
+                border-bottom: 1px solid #fff
+            &__item
+                margin: 7px 0
+                font-size: 19px
+                font-weight: 200
+    .section
+        height: 100%
+        padding-top: 52px
+        padding-bottom: 50px
+        &__title
+            font-size: 32px
+            margin-bottom: 50px
+            &_sub-title
+                font-size: 30px
+                margin-top: 55px
+                margin-bottom: 35px
+        &__content
+            font-size: 20px
+            margin-bottom: 25px
+        &__link
+            font-size: 20px
+    .parallax
+        &__title
+            font-size: 60px
+    .responsibility
+        height: 100%
+        &__list
+            line-height: 30px
+        embed
+            width: 717px
+            height: 731px
+            margin-bottom: 35px
+        .btn-box
+            margin-bottom: 35px
+@media (max-width: 1199px)
+    .news-bookmark
+        &__wrapper
+            width: 45px
+            height: 150px
+            padding: 12px 8px
+        &__horizontal-devider
+            width: 24px
+            height: 1px
+            flex-shrink: 0
+            background: $link-color
+        &__content
+            height: 295px
+            padding-bottom: 19.3px
+        &__title
+            font-size: 18px
+            letter-spacing: 1px
+        .news-back-mark
+            img
+                width: 31px
+                height: 40px
+        .news-mark__wrapper
+            width: 250px
+            height: 350px
+            .news__horizontal-devider
+                width: 225px
+            .news__content
+                justify-content: space-evenly
+            .news__title
+                font-size: 18px
+            .news__descr
+                font-size: 15px
+    .menu
+        &__link
+            font-size: 15px !important
+        &__vertical-devider
+            height: 18px !important
+            transform: skewX(0deg) !important
+        &__item
+            display: flex
+            justify-content: center
+            position: relative
+            transition: 0.5s all
+            &:nth-child(1)
+                width: 76px !important
+            &:nth-child(3)
+                width: 142px !important
+            &:nth-child(5)
+                width: 67px !important
+            &:nth-child(7)
+                width: 91px !important
+            &:nth-child(9)
+                width: 115px !important
+            &:nth-child(11)
+                width: 90px !important
+        &__horizontal-devider
+            width: 180px !important
+            &_long
+                width: 440px !important
+    .sub-menu
+        &__wrapper
+            left: -35px !important
+            top: 15px !important
+        &__list
+            width: 210px !important
+            height: 166px !important
+            &_long
+                width: 470px !important
+                height: 380px !important
+    .header
+        &__wrapper
+            padding: 0px 
+            height: 70px
+        &__logo
+            width: 170px
+            height: 55px
+        &__title
+            font-size: 25px
+            &_sub
+                font-size: 15px
+        &__contacts
+            font-size: 15px
+            &_first
+                margin-bottom: 7px
+@media (max-width: 991px)
+    .header
+        &__wrapper
+            padding: 0px 
+            height: 65px
+        &__logo
+            width: 150px
+            height: 50px
+        &__title
+            font-size: 22px
+            &_sub
+                font-size: 14px
+        &__contacts
+            font-size: 13px
+            &_first
+                margin-bottom: 5px
+    .section
+        &__img-box
+            width: fit-content
+            height: auto
+            img
+                width: 100%
+                margin-top: 7px
+                margin-bottom: 7px
+    .carousel
+        &__inner
+            width: 100%
+            height: 100%
+        img
+            width: 100%
+            height: 100%
+            margin: 0 auto
+@media (max-width: 767px)
+    .MOB
+        display: block
+    .DESC
+        display: none
+    .MD
+        display: block
+    .news-bookmark
+        display: block
+        position: fixed
+        top: 340px
+        right: -1px
+        &__wrapper
+            position: relative
+            width: 45px
+            height: 150px
+            padding: 12px 8px
+            z-index: 5
+        &__horizontal-devider
+            width: 24px
+            height: 1px
+            flex-shrink: 0
+            background: $link-color
+        &__content
+            height: 295px
+            padding-bottom: 19.3px
+        &__title
+            font-size: 18px
+            letter-spacing: 1px
+        .news-back-mark
+            img
+                width: 31px
+                height: 40px
+        .news-mark__wrapper
+            width: 250px
+            height: 350px
+            .news__horizontal-devider
+                width: 225px
+            .news__content
+                justify-content: space-evenly
+            .news__title
+                font-size: 18px
+            .news__descr
+                font-size: 15px
+    nav
+        width: 100%
+        height: 42px
+        position: fixed
+        border-bottom: 1px solid $main-color
+        background: #FFF
+    .mobile
+        position: relative
+        width: 0
+        z-index: 4
+        transition: 0.8s all
+        li
+            opacity: 0
+            transition: 0.4s 
+            ul
+                opacity: 0
+                transition: 0.4s 
+        &_active
+            width: 100%
+            li
+                opacity: 100
+                transition: 1.4s
+                ul
+                    opacity: 100
+                    transition: 1.4s
+    .mobile_menu
+        position: relative
+        top: 42px
+        left: -100%
+        width: 100%
+        height: 100vh
+        overflow-y: auto
+        list-style-type: none
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        padding: 50px 0px
+        margin: 0
+        background: rgba(25, 25, 26, 0.85)
+        backdrop-filter: blur(5px)
+        z-index: 5
+        transition: 0.8s all            
+        &_active
+            left: 0
+        &_link 
+            text-decoration: none 
+            color: #FFF
+            text-align: center
+            font-family: Roboto
+            font-size: 20px
+            font-style: normal
+            font-weight: 300
+            line-height: normal
+            letter-spacing: 1.4px
+            z-index: 4
+        &_item
+            z-index: 4
+            position: relative
+            display: flex
+            justify-content: center
+            width: 100%
+            height: 30px
+            margin: 15px 0
+        &__horizontal-devider
+            display: block
+            margin: 0 auto
+            margin-top: 10px
+            margin-bottom: 10px
+            height: 1px
+            width: 100%
+            background: #fff
+            border-radius: 0.5px
+            transition: 0.5s all
+            &_black
+                background: $main-color
+        &_el
+            z-index: 4
+            position: relative
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            width: 100%
+            height: 30px
+            margin: 15px 0
+            transition: 0.5s all
+            height: fit-content
+            .mobile_menu_ul
+                display: none
+                list-style-type: none
+                line-height: 25px
+                letter-spacing: 0.98px
+                background: rgba(25, 25, 26, 0.5)
+                backdrop-filter: blur(0.0002px)
+                border: 1px solid $main-color
+                border-radius: 5px
+                height: fit-content
+            &_active 
+                .mobile_menu_ul
+                    display: flex
+                    flex-direction: column
+                    margin-top: 10px
+                    padding: 0 15px
+                    width: 80%
+                    height: 100%
+                    li
+                        margin: 5px 0
+                    a
+                        display: block
+                        text-decoration: none
+                        color:#fff
+                        font-family: Roboto
+                        font-size: 14px
+                        font-style: normal
+                        font-weight: 300
+                        line-height: normal
+                        letter-spacing: 2px
+    .mobile-oficial
+        position: absolute
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &__logo
+            margin-left: 10px
+            display: flex
+            align-items: center
+            width: 35.5px
+            height: 42px
+            img
+                width: 35px
+                height: 36px
+        &__titles
+            line-height: 20px
+            display: flex
+            flex-direction: column
+            align-items: center
+        &__title
+            color: #000
+            font-family: Roboto
+            font-size: 13px
+            font-style: normal
+            font-weight: 400
+            line-height: normal
+            &_sub
+                color: rgba(0, 0, 0, 0.30)
+                text-align: center
+                font-family: Roboto
+                font-size: 11px
+                font-weight: 700
+    .hamburger
+        display: block
+        right: 0
+        transform: translate(-50%)
+        width: 25px
+        margin-left: 11px
+        height: 18px
+        z-index: 5
+        div
+            display: block
+            height: 2px
+            width: 100%
+            background: $main-color
+            z-index: 5
+            margin-bottom: 5px
+            border-radius: 2px
+            transition: 0.5s all
+            &:nth-child(3)
+                margin-bottom: 0px
+        &_active
+            margin-top: 10px
+            transition: 0.5s all
+            div
+                margin-bottom: -2.5px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .footer
+        position: relative
+        .footer-contacts
+            top: 69px
+            left: 50%
+            transform: translateX(-50%)
+            width: 85%
+            height: 241px
+            border-radius: 0px 0px 10px 10px
+            border-right: 1px solid #000
+            border-bottom: 1px solid #000
+            border-left: 1px solid #000
+            background: rgba(25, 25, 26, 0.85)
+            backdrop-filter: blur(5px)
+            padding: 10px 8px
+            &__title
+                font-size: 20px
+                font-weight: 300
+                margin-bottom: 10px
+                border-bottom: 1px solid #fff
+            &__item
+                margin: 8px 0
+                font-size: 13px
+                font-weight: 200
+        &__descr
+            color: #FFF
+            text-align: right
+            font-family: Roboto
+            font-size: 10px
+            font-style: normal
+            font-weight: 300
+            line-height: normal
+        &__vertical-devider
+            width: 1px
+            height: 36px
+            border-radius: 0.5px
+            background: rgba(255, 255, 255, 0.40)
+            margin: 0 10px
+    .pageup
+        right: 5px !important
+        bottom: 5px !important
+        z-index: 12
+        opacity: 100
+        img
+            width: 40px !important
+            height: 32px !important
+    .section
+        height: 100%
+        padding-top: 78px
+        padding-bottom: 30px
+        &__title
+            font-size: 22px
+            margin-bottom: 50px
+            &_sub-title
+                font-size: 20px
+                margin-top: 55px
+                margin-bottom: 35px
+        &__content
+            font-size: 15px
+            margin-bottom: 25px
+        &__link
+            font-size: 15px
+    .parallax
+        background: url(../img/parallax_mob.png) center/cover no-repeat fixed
+        height: 500px
+        &__title
+            font-size: 30px
+    .responsibility
+        height: 100%
+        &__list
+            line-height: 30px
+        embed
+            width: 100%
+            height: 548px
+            margin-bottom: 35px
+        .btn-box
+            margin-bottom: 35px
+    .web-form
+        width: 100%
+        height: fit-content
+        background: #fff
+        &__wrapper
+            width: 100%
+            height: fit-content
+            padding: 30px 18px
+            border-radius: 10px
+            border: 1px solid #000
+        &__title
+            font-size: 18px
+            line-height: 20px
+        input, textarea, select
+            margin: 12px 0
+            padding: 5px 12px
+            width: 100%
+            height: 30px
+            font-size: 15px
+            line-height: 15px
+            &::placeholder
+                color: rgba(0, 0, 0, 0.55)
+                font-size: 15px
+        &__sub-box
+            display: block
+            input
+                width: 100%
+        button
+            font-size: 16px 
+            margin: 0 auto
+            margin-top: -5px
+        textarea
+            line-height: 20px
+            height: 140px
+        label
+            margin-left: 14px
+            font-size: 16px
+            line-height: 16px
+        .error
+            margin-bottom: 3px
+            &:focus
+                box-shadow: 0px 0px 5px 3px $button-color
+        label.error
+            font-size: 13px
+            margin-bottom: 10px
